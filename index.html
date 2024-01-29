@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration form</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+   <h1>Login and Registration form</h1>
+
+   <div class="form-container">
+        <form id="loginform">
+            <h2>Login</h2>
+            
+            <div>
+                <label for="loginusername">Name</label>
+                <input type="text" id="loginusername" required>
+            </div>
+            <div>
+                <label for="loginpassword">Password</label>
+                <input type="password" id="loginpasswd" required>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+        <form id="registrationform">
+            <h2>Registration</h2>
+
+            <div>
+                <label for="regusername">Name</label>
+                <input type="text" id="regusername" required>
+            </div>
+            <div>
+                <label for="regemail">Email</label>
+                <input type="email" id="regemail" required>
+            </div>
+            <div>
+                <label for="regpasswd">Password</label>
+                <input type="password" id="regpasswd" required>
+            </div>
+            <div>
+                <label for="regconfirmpasswd">ConfirmPassword</label>
+                <input type="password" id="regconfirmpasswd" required>
+            </div>
+            <button type="submit">Registration</button>
+        </form>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
