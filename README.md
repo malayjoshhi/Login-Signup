@@ -11,6 +11,6 @@ The Login and Registration Form project aims to create a user authentication sys
 
 
 
-    ---> HERE IS SOME IMAGES
+    
 
-    <img width="923" alt="Login and Signup page in html " src="https://github.com/malayjoshhi/Login-Signup/assets/115916405/9da2ddb9-ad35-42b6-bb8f-9b30c013b878">
+    
